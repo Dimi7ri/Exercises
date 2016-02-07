@@ -66,9 +66,9 @@ public class SumIntList {
 	public static int SumIntListRecursion(List<Integer> list){
 		if (list.isEmpty() == true ) {
 			return 0;
-        		}
-        		else {
+        	}
+        	else {
         			return list.get(0) + SumIntListRecursion(list.subList(1, list.size()));
-        		}
+        	}
 	}
 }
