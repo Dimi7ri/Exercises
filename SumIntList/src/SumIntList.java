@@ -57,15 +57,15 @@ public class SumIntList {
 		}
 		return sum;
 	}
-	
+
 	/**
 	 * This method sums the integers of a list recursively.
 	 * @param list of integers to be summed up.
 	 * @return Integer with the sum of the elements in the list.
 	 */
 	public static int SumIntListRecursion(List<Integer> list){
-        		if (list.isEmpty() == true ) {
-            			return 0;
+		if (list.isEmpty() == true ) {
+			return 0;
         		}
         		else {
         			return list.get(0) + SumIntListRecursion(list.subList(1, list.size()));
