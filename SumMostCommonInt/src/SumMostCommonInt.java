@@ -27,7 +27,11 @@ public class SumMostCommonInt {
 		
 		
 	}
-
+	/**
+	 * This method sums the most common integers of an array.
+	 * @param Array of integers to find the most repeated element and sum it up.
+	 * @return Integer with the sum of the most repeated element in the array.
+	 */
 	public static int SumMostCommonIntA(int[] Array){
 		int TempCount = 0 , Counter = 0 , CommElem = 0;
 		for(int I = 0 ; I < Array.length ; I++){
