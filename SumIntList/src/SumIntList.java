@@ -68,7 +68,7 @@ public class SumIntList {
 			return 0;
         	}
         	else {
-        			return list.get(0) + SumIntListRecursion(list.subList(1, list.size()));
+        		return list.get(0) + SumIntListRecursion(list.subList(1, list.size()));
         	}
 	}
 }
